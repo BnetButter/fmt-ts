@@ -1,4 +1,12 @@
 from setuptools import setup, find_packages
+import subprocess
+
+subprocess.call([
+    "npm", "install", "-g", "typescript"
+])
+subprocess.call([
+    "npm", "install", "-g", "typescript-formatter"
+])
 
 setup(
     name="fmt-ts",
