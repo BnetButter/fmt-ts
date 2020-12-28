@@ -1,6 +1,6 @@
 # fmt-ts
 
-Format according to PEP-7
+Format typescript according to PEP-7
 ##### Usage
 format to file
 >$ fmt-ts *inputfile* > *outputfile* 
